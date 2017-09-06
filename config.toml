@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://kirubasankars.github.io"
 languageCode = "en-us"
-title = "KIRUBA SANKAR SWAMINATHAN"
+title = "Kiruba Sankar Swaminathan"
 theme = "dev"
 
 [taxonomies]
