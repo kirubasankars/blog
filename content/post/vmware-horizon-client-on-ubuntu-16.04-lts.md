@@ -2,8 +2,7 @@
 title: "Vmware Horizon Client on Ubuntu 16.04 LTS."
 date: 2017-09-05T21:59:29-04:00
 draft: false
-description: "Setting up VMware Horizon Client on Ubuntu 16.04. LTS"
-tags: ["Linux", "Shell", "VMware"]
+tags: ["linux", "shell", "vmware"]
 ---
 
 ## How to install VMware Horizon Client on Ubuntu 16.04. LTS
@@ -24,10 +23,12 @@ Go through setup wizard and complete the installation. Good Luck for you. my Hor
 
 VMware Horizon Client was missing some shared library on my machine. How do I know what's missing? i did ran following command
 
-```$ ldd /usr/lib/vmware/view/bin/vmware-view | grep 'not found'
+```
+    $ ldd /usr/lib/vmware/view/bin/vmware-view | grep 'not found'
 		 libudev.so.0 => not found
 		 libssl.so.1.0.2 => not found
-		 libcrypto.so.1.0.2 => not found```
+		 libcrypto.so.1.0.2 => not found
+```
 
 Unlike other operating systems, Linux uses shared libraries a lot. There are good and bad thing about it. read about it. "**ldd**" command on any executable gives you list of all shared libraries used and weather a shared library exists on your machine. I needed those libs to start my horizon client. 
 

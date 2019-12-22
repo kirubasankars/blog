@@ -1,9 +1,9 @@
 ---
-title: "[Solved] Optimized way to check/detect JavaScript disabled in the browser"
+title: "Check JavaScript disabled in the browser Check JavaScript disabled in the browser"
 date: 2013-08-21T17:51:28-04:00
 draft: false
-description: "Optimized way to check/detect JavaScript disabled in the browser (with GET/POST Methods)"
 tags: ["browser", "javascript", "website"]
+thumbnail: "ass"
 ---
 
 For security concern, user may like to disable JavaScript in their web browser. If it is, raise a big problem in many website which depends on JavaScript to function well.
@@ -20,3 +20,5 @@ This get request will only triggered when no JavaScript is enabled. You can use 
   <img src=”nojavascript.[asp/aspx/php/jsp]?userid=[userid]” />
 </noscript>
 ```
+
+
